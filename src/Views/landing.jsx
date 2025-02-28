@@ -2,7 +2,7 @@ import React from "react";
 import Herosection from "../components/herosection";
 import InfoSection from "../components/infoSection";
 import Divider from "../components/divider";
-import Carousel from "../components/carousel";
+import Carousel from "../components/landingCarousel";
 import "../styles/landing.css";
 import TechCard from "../components/techCard";
 import info from "./../info.json";

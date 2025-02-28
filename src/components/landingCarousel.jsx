@@ -1,5 +1,5 @@
 import React from 'react';
-import info from "./../info.json";
+import info from "../info.json";
 import ProjectCard from './projectCard';
 
 const Carousel = () => {

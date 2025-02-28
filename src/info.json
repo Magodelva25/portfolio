@@ -1,18 +1,19 @@
 {
-    "basics": {
-      "name": "MANGO",
-      "label": "Full Stack Developer | UI/UX Designer",
-      "image": "",
-      "email": "migudz@gmail.com",
-      "phone": "+34 680855951",
-      "summary": "Full Stack Developer with a background in graphic design and digital interfaces. Specialized turning Figma designs into fully functional products."
-    },
-    "about": {
-      "title": "About",
-      "content": "I am a Full Stack Developer and UI/UX Designer with over 8 years of experience in creative projects. I am passionate about building intuitive, functional, and visually appealing web applications. I have a strong background in both front-end and back-end development, as well as experience in design and project management. I am a team player who is always eager to learn and take on new challenges."
-    },
+  "basics": {
+    "name": "MANGO",
+    "label": "Full Stack Developer | UI/UX Designer",
+    "image": "",
+    "email": "migudz@gmail.com",
+    "phone": "+34 680855951",
+    "summary": "Full Stack Developer with a background in graphic design and digital interfaces. Specialized turning Figma designs into fully functional products."
+  },
+  "about": {
+    "title": "About",
+    "content": "I am a Full Stack Developer and UI/UX Designer with over 8 years of experience in creative projects. I am passionate about building intuitive, functional, and visually appealing web applications. I have a strong background in both front-end and back-end development, as well as experience in design and project management. I am a team player who is always eager to learn and take on new challenges."
+  },
 
-    "skills": [{
+  "skills": [
+    {
       "keywords": [
         "HTML",
         "CSS",
@@ -31,141 +32,139 @@
         "GITHUB",
         "SLACK",
         "TRELLO",
-        "DISCORD"   
+        "DISCORD"
       ]
-    }],
-    "projects": [
-        {
+    }
+  ],
+  "projects": [
+    {
       "name": "My habits",
+      "year": "2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id maximus eros. Sed imperdiet arcu nibh, at laoreet nunc suscipit eget. Phasellus in ornare lectus. Morbi eu aliquam nisl, sit amet consequat libero. Vivamus dui felis, venenatis ut ipsum sit amet, efficitur rhoncus tortor. Vestibulum ut tellus nisi. Ut quis aliquam dui. Nam interdum vehicula ligula. Aliquam dapibus, mi vitae facilisis sodales, massa nulla bibendum ipsum, sed sollicitudin lacus libero porta magna. Vestibulum eu iaculis diam. Sed elementum velit vitae enim pretium, non tincidunt metus faucibus. Maecenas nec eros magna. Pellentesque pharetra elit nec nulla aliquet, eu vehicula diam vestibulum. Nullam euismod egestas scelerisque.Pellentesque lobortis dapibus dui sit amet volutpat. Pellentesque ultricies.",
+      "coverPicture": "https://i.postimg.cc/XJJnrBsx/Desktop-9.png",
+      "url": "https://project.com/",
+      "client": "Ampere Energy",
+      "location": "Madrid, Spain",
+      "keywords": ["UX/UI", "Concepts", "App"],
+      "projectMedia": [
+        {
+          "type": "image",
+          "url": "https://i.postimg.cc/RVy7ZcZC/Desktop-1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://i.postimg.cc/MZs0hkkQ/Desktop-10.png"
+        },
+        {
+          "type": "image",
+          "url": "https://i.postimg.cc/L6nkSyR0/Desktop-11.png"
+        }
+      ]
+    },
+    {
+      "name": "My ampere",
       "year": "2021",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id maximus eros. Sed imperdiet arcu nibh, at laoreet nunc suscipit eget. Phasellus in ornare lectus. Morbi eu aliquam nisl, sit amet consequat libero. Vivamus dui felis, venenatis ut ipsum sit amet, efficitur rhoncus tortor. Vestibulum ut tellus nisi. Ut quis aliquam dui. Nam interdum vehicula ligula. Aliquam dapibus, mi vitae facilisis sodales, massa nulla bibendum ipsum, sed sollicitudin lacus libero porta magna. Vestibulum eu iaculis diam. Sed elementum velit vitae enim pretium, non tincidunt metus faucibus. Maecenas nec eros magna. Pellentesque pharetra elit nec nulla aliquet, eu vehicula diam vestibulum. Nullam euismod egestas scelerisque.Pellentesque lobortis dapibus dui sit amet volutpat. Pellentesque ultricies scelerisque ante, ac pretium nulla tincidunt ut. Vestibulum gravida tortor et ultrices sollicitudin. Donec lacinia sed est id varius. Pellentesque consequat orci nec sapien commodo mattis. Mauris magna metus, pharetra ut pellentesque et, suscipit vitae velit. Fusce sed nunc turpis. Ut porttitor nibh elit, sed efficitur risus commodo sit amet.",
+      "description": "Description...",
       "coverPicture": "https://i.postimg.cc/Kvjjjt46/Ampere-hero.png",
       "url": "https://project.com/",
       "projectMedia": [
         {
-        "type": "image",
-        "url": "url"
+          "type": "image",
+          "url": "url"
         },
         {
-        "type": "image",
-        "url": "url"
+          "type": "image",
+          "url": "url"
         },
         {
-        "type": "image",
-        "url": "url"
+          "type": "image",
+          "url": "url"
         }
-      
-    ]
+      ]
     },
     {
-        "name": "My ampere",
-        "year": "2021",
-        "description": "Description...",
-        "coverPicture": "https://i.postimg.cc/Kvjjjt46/Ampere-hero.png",
-        "url": "https://project.com/",
-        "projectMedia": [
-          {
+      "name": "My ampere",
+      "year": "2021",
+      "description": "Description...",
+      "coverPicture": "https://i.postimg.cc/Kvjjjt46/Ampere-hero.png",
+      "url": "https://project.com/",
+      "projectMedia": [
+        {
           "type": "image",
           "url": "url"
-          },
-          {
+        },
+        {
           "type": "image",
           "url": "url"
-          },
-          {
+        },
+        {
           "type": "image",
           "url": "url"
-          }
-        
+        }
       ]
-      },
-      {
-        "name": "My ampere",
-        "year": "2021",
-        "description": "Description...",
-        "coverPicture": "https://i.postimg.cc/Kvjjjt46/Ampere-hero.png",
-        "url": "https://project.com/",
-        "projectMedia": [
-          {
+    },
+    {
+      "name": "My ampere",
+      "year": "2021",
+      "description": "Description...",
+      "coverPicture": "https://i.postimg.cc/Kvjjjt46/Ampere-hero.png",
+      "url": "",
+      "projectMedia": [
+        {
           "type": "image",
           "url": "url"
-          },
-          {
+        },
+        {
           "type": "image",
           "url": "url"
-          },
-          {
+        },
+        {
           "type": "image",
           "url": "url"
-          }
-        
+        }
       ]
-      },
-      {
-        "name": "My ampere",
-        "year": "2021",
-        "description": "Description...",
-        "coverPicture": "https://i.postimg.cc/Kvjjjt46/Ampere-hero.png",
-        "url": "",
-        "projectMedia": [
-          {
+    },
+    {
+      "name": "My ampere",
+      "year": "2021",
+      "description": "Description...",
+      "coverPicture": "https://i.postimg.cc/Kvjjjt46/Ampere-hero.png",
+      "url": "",
+      "projectMedia": [
+        {
           "type": "image",
           "url": "url"
-          },
-          {
+        },
+        {
           "type": "image",
           "url": "url"
-          },
-          {
+        },
+        {
           "type": "image",
           "url": "url"
-          }
-        
+        }
       ]
-      },
-      {
-        "name": "My ampere",
-        "year": "2021",
-        "description": "Description...",
-        "coverPicture": "https://i.postimg.cc/Kvjjjt46/Ampere-hero.png",
-        "url": "",
-        "projectMedia": [
-          {
+    },
+    {
+      "name": "My ampere",
+      "year": "2021",
+      "description": "Description...",
+      "coverPicture": "https://i.postimg.cc/Kvjjjt46/Ampere-hero.png",
+      "url": "",
+      "projectMedia": [
+        {
           "type": "image",
           "url": "url"
-          },
-          {
+        },
+        {
           "type": "image",
           "url": "url"
-          },
-          {
+        },
+        {
           "type": "image",
           "url": "url"
-          }
-        
+        }
       ]
-      },
-      {
-        "name": "My ampere",
-        "year": "2021",
-        "description": "Description...",
-        "coverPicture": "https://i.postimg.cc/Kvjjjt46/Ampere-hero.png",
-        "url": "",
-        "projectMedia": [
-          {
-          "type": "image",
-          "url": "url"
-          },
-          {
-          "type": "image",
-          "url": "url"
-          },
-          {
-          "type": "image",
-          "url": "url"
-          }
-        
-      ]
-      }
-]
-  }
+    }
+  ]
+}
