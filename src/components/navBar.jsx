@@ -19,7 +19,9 @@ const NavBar = () => {
   const handleResize = () => {
     setIsMobile(window.innerWidth <= 800);
   };
-  
+  const handleMenu = () => {
+    setIsOpen(false)
+  }
   const handleSocials = () => {
     socialsOpen ? setSocialsOpen(false) : setSocialsOpen(true);
   }
@@ -39,7 +41,7 @@ const NavBar = () => {
         (
         <>
           <div className="nav-logo">
-            <Link to={"/"}>
+            <Link to={"/"} onClick={handleMenu}>
               <span className="logo-text">{basics.name}</span>
             </Link>
           </div>
@@ -54,7 +56,7 @@ const NavBar = () => {
               <div className="burger-content">
                 <button
                   className="close-button"
-                  onClick={() => setIsOpen(false)}
+                  onClick={handleMenu}
                 >
                   <CloseIcon />
                 </button>
@@ -62,7 +64,7 @@ const NavBar = () => {
                   <div className="nav-links-burguer">
                     <ul>
                       <li>
-                      <Link to={"/about"}>
+                      <Link to={"/about"} onClick={handleMenu}>
                         <p>About</p>
                       </Link>
                       </li>
@@ -96,7 +98,7 @@ const NavBar = () => {
       ) : (
         <>
           <div className="nav-logo">
-            <Link to={"/"}>
+            <Link to={"/"} onClick={handleMenu}>
               <span className="logo-text">{basics.name}</span>
             </Link>
           </div>
