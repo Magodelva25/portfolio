@@ -43,10 +43,6 @@ a {
 
 }
 
-@media (prefers-color-scheme: light) {
-
-}
-
 :root {
   font-family: 'Robot', sans-serif;
   --background-color: #ffffff;
@@ -69,6 +65,44 @@ a {
   --icon-default-color: #fdfdfd;
 
 }
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  font-size: 12px;
+  font-weight: 100;
+  z-index: 1000;
+}
+
+.loading-items{
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+
+}
+
+.loader {
+  width: 60px;
+  height: 10px;
+  background:
+   linear-gradient(#000 0 0) 0/0% no-repeat
+   #ddd;
+  animation: l1 2s linear;
+  margin-top: 15px;
+}
+@keyframes l1 {
+    100% {background-size:100%}
+}
+
 
 .main-container {
   padding: 25px;
@@ -1108,3 +1142,4 @@ a {
   }
 
 }
+

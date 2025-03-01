@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"; // Importamos Link para la navegación
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const ProjectCard = ({ name, year, coverPicture }) => {
-  const projectUrl = `/projects/${name.replace(/\s+/g, "-").toLowerCase()}`; // Convertimos el nombre a formato URL válido
+  const projectUrl = `/projects/${name.replace(/\s+/g, "-").toLowerCase()}`;
 
   return (
     <Link to={projectUrl} className="project-card">

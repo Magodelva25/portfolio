@@ -1,9 +1,9 @@
 import React from 'react'
 
-const TagBadge = (params) => {
+const TagBadge = (props) => {
   return (
     <div className='tag-card'>
-        <span>{params.content}</span>
+        <span>{props.content}</span>
     </div>
   )
 }

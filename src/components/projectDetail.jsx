@@ -4,7 +4,7 @@ import info from "../info.json";
 import TagBadge from "./tagBadge";
 
 const ProjectDetail = () => {
-  const { projectName } = useParams(); // Capturamos el parámetro de la URL
+  const { projectName } = useParams();
   const project = info.projects.find(
     (p) =>
       p.name.replace(/\s+/g, "-").toLowerCase() === projectName.toLowerCase()
