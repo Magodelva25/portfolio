@@ -8,9 +8,6 @@ const HeroSection = () => {
         <div className='hero-title'>
           <h1>{basics.label}</h1>
         </div>
-        <div className='hero-content'>
-          <p>{basics.summary}</p>
-        </div>
     </div>
   )
 }

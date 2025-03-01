@@ -8,7 +8,7 @@ const ProjectCard = ({ name, year, coverPicture }) => {
   return (
     <Link to={projectUrl} className="project-card">
       <div>
-        <img className="project-card-image" src={coverPicture} alt={name} />
+        <img loading="lazy" className="project-card-image" src={coverPicture} alt={name}  />
       </div>
       <div className="project-card-handler">
         <div className="description">

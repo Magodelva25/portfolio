@@ -18,7 +18,7 @@ const ProjectDetail = () => {
     <div className="project-detail">
       <div className="visual-carousel">
         {project.projectMedia?.map((object, index) => (
-          <img className="visual-carousel-img" key={index} src={object.url} />
+          <img loading="lazy" className="visual-carousel-img" key={index} src={object.url} />
         ))}
       </div>
       <div className="project-content">

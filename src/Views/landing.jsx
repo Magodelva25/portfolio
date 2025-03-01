@@ -3,36 +3,20 @@ import Herosection from "../components/herosection";
 import InfoSection from "../components/infoSection";
 import Divider from "../components/divider";
 import Carousel from "../components/landingCarousel";
-import "../styles/landing.css";
-import TechCard from "../components/techCard";
-import info from "./../info.json";
-
+import TechSliderAnimate from "../components/techSliderAnimate";
 
 const Landing = () => {
-  const { skills } = info;
-
   return (
     <div className="landing-container">
-        <Herosection />
+      <Herosection />
       <div className="info">
         <InfoSection />
       </div>
-      <div className="divider1">
-        <Divider />
-      </div>
       <div className="techs">
-      {skills.map((skill, index) => (
-          skill.keywords.map((keyword, i) => (
-            <TechCard key={`${index}-${i}`} techs={keyword} />
-          ))
-        ))}
-
-      </div>
-      <div className="divider2">
-        <Divider />
+        <TechSliderAnimate />
       </div>
       <div className="carousel">
-        <Carousel/>
+        <Carousel />
       </div>
     </div>
   );
