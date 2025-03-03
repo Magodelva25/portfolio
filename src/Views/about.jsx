@@ -1,8 +1,17 @@
 import React from 'react'
 import info from './../info.json';
+import TechCard from '../components/techCard';
+
+
 const About = () => {
 
-  const { about } = info
+
+  const { about, basics } = info
+  const hobbies = 
+    about.hobbies.map((hobbie, i) => (
+      <TechCard key={`${hobbie}-${i}`} techs={hobbie}/>
+    ));
+  
   return (
     <div className='about-section'>
       <div className='about-title'>
@@ -12,9 +21,13 @@ const About = () => {
       <div className='about-content'>
         <p>{about.content}</p>
       </div>
-
+      <div className='hobbies'>
+        <div className='hobbies-list'>
+          {hobbies}
+        </div>
+      </div>
       <div className='about-picture'>
-        <img src='https://images.unsplash.com/photo-1738168246881-40f35f8aba0a?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt="unsplash" />
+        <img src={basics.image} alt="Manuel-Gonzalez" />
       </div>
     </div>
   )
