@@ -6,9 +6,9 @@ const Carousel = () => {
   const { projects } = info;
   return (
     <div className="carousel">
-      {projects.map((project) => (
+      {projects.map((project, index) => (
         <ProjectCard 
-          key={project.name}
+          key={index}
           name={project.name}
           year={project.year}
           coverPicture={project.coverPicture}

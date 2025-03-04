@@ -8,8 +8,8 @@ const About = () => {
 
   const { about, basics } = info
   const hobbies = 
-    about.hobbies.map((hobbie, i) => (
-      <TechCard key={`${hobbie}-${i}`} techs={hobbie}/>
+    about.hobbies.map((hobbie, index) => (
+      <TechCard key={index} techs={hobbie}/>
     ));
   
   return (

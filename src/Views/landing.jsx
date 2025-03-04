@@ -4,7 +4,11 @@ import InfoSection from "./../components/infoSection";
 import Carousel from "./../components/landingCarousel";
 import TechSliderAnimate from "./../components/techSliderAnimate";
 
+
+
 const Landing = () => {
+
+
   return (
     <div className="landing-container">
       <Herosection />

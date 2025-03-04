@@ -44,6 +44,60 @@
         "GITHUB",
         "SLACK",
         "TRELLO",
+        "DISCORD", 
+        "HTML",
+        "CSS",
+        "JAVASCRIPT",
+        "REACT",
+        "PYTHON",
+        "REST API",
+        "BOOTSTRAP",
+        "MATERIAL-UI",
+        "VS CODE",
+        "FIGMA",
+        "XD",
+        "PHOSOTHOP",
+        "ILLUSTRATOR",
+        "WIN/MAC",
+        "GITHUB",
+        "SLACK",
+        "TRELLO",
+        "DISCORD", 
+        "HTML",
+        "CSS",
+        "JAVASCRIPT",
+        "REACT",
+        "PYTHON",
+        "REST API",
+        "BOOTSTRAP",
+        "MATERIAL-UI",
+        "VS CODE",
+        "FIGMA",
+        "XD",
+        "PHOSOTHOP",
+        "ILLUSTRATOR",
+        "WIN/MAC",
+        "GITHUB",
+        "SLACK",
+        "TRELLO",
+        "DISCORD", 
+        "HTML",
+        "CSS",
+        "JAVASCRIPT",
+        "REACT",
+        "PYTHON",
+        "REST API",
+        "BOOTSTRAP",
+        "MATERIAL-UI",
+        "VS CODE",
+        "FIGMA",
+        "XD",
+        "PHOSOTHOP",
+        "ILLUSTRATOR",
+        "WIN/MAC",
+        "GITHUB",
+        "SLACK",
+        "TRELLO",
         "DISCORD"
       ]
     }
@@ -53,7 +107,7 @@
       "name": "My habits",
       "year": "2022",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id maximus eros. Sed imperdiet arcu nibh, at laoreet nunc suscipit eget. Phasellus in ornare lectus. Morbi eu aliquam nisl, sit amet consequat libero. Vivamus dui felis, venenatis ut ipsum sit amet, efficitur rhoncus tortor. Vestibulum ut tellus nisi. Ut quis aliquam dui. Nam interdum vehicula ligula. Aliquam dapibus, mi vitae facilisis sodales, massa nulla bibendum ipsum, sed sollicitudin lacus libero porta magna. Vestibulum eu iaculis diam. Sed elementum velit vitae enim pretium, non tincidunt metus faucibus. Maecenas nec eros magna. Pellentesque pharetra elit nec nulla aliquet, eu vehicula diam vestibulum. Nullam euismod egestas scelerisque.Pellentesque lobortis dapibus dui sit amet volutpat. Pellentesque ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id maximus eros. Sed imperdiet arcu nibh, at laoreet nunc suscipit eget. Phasellus in ornare lectus. Morbi eu aliquam nisl, sit amet consequat libero. Vivamus dui felis, venenatis ut ipsum sit amet, efficitur rhoncus tortor. Vestibulum ut tellus nisi. Ut quis aliquam dui. Nam interdum vehicula ligula. Aliquam dapibus, mi vitae facilisis sodales, massa nulla bibendum ipsum, sed sollicitudin lacus libero porta magna. Vestibulum eu iaculis diam. Sed elementum velit vitae enim pretium, non tincidunt metus faucibus. Maecenas nec eros magna. Pellentesque pharetra elit nec nulla aliquet, eu vehicula diam vestibulum. Nullam euismod egestas scelerisque.Pellentesque lobortis dapibus dui sit amet volutpat. Pellentesque ultricies.",
-      "coverPicture": "https://i.postimg.cc/XJJnrBsx/Desktop-9.png",
+      "coverPicture": "https://i.postimg.cc/7ZHLQnqN/Cover.png",
       "url": "https://project.com/",
       "client": "Ampere Energy",
       "location": "Madrid, Spain",
@@ -77,92 +131,8 @@
       "name": "My ampere",
       "year": "2021",
       "description": "Description...",
-      "coverPicture": "https://i.postimg.cc/XJJnrBsx/Desktop-9.png",
+      "coverPicture": "https://i.postimg.cc/tgbj7XMC/imagen-1.jpg",
       "url": "https://project.com/",
-      "projectMedia": [
-        {
-          "type": "image",
-          "url": "url"
-        },
-        {
-          "type": "image",
-          "url": "url"
-        },
-        {
-          "type": "image",
-          "url": "url"
-        }
-      ]
-    },
-    {
-      "name": "My ampere",
-      "year": "2021",
-      "description": "Description...",
-      "coverPicture": "https://i.postimg.cc/XJJnrBsx/Desktop-9.png",
-      "url": "https://project.com/",
-      "projectMedia": [
-        {
-          "type": "image",
-          "url": "url"
-        },
-        {
-          "type": "image",
-          "url": "url"
-        },
-        {
-          "type": "image",
-          "url": "url"
-        }
-      ]
-    },
-    {
-      "name": "My ampere",
-      "year": "2021",
-      "description": "Description...",
-      "coverPicture": "https://i.postimg.cc/XJJnrBsx/Desktop-9.png",
-      "url": "",
-      "projectMedia": [
-        {
-          "type": "image",
-          "url": "url"
-        },
-        {
-          "type": "image",
-          "url": "url"
-        },
-        {
-          "type": "image",
-          "url": "url"
-        }
-      ]
-    },
-    {
-      "name": "My ampere",
-      "year": "2021",
-      "description": "Description...",
-      "coverPicture": "https://i.postimg.cc/XJJnrBsx/Desktop-9.png",
-      "url": "",
-      "projectMedia": [
-        {
-          "type": "image",
-          "url": "url"
-        },
-        {
-          "type": "image",
-          "url": "url"
-        },
-        {
-          "type": "image",
-          "url": "url"
-        }
-      ]
-    },
-    {
-      "name": "My ampere",
-      "year": "2021",
-      "description": "Description...",
-      "coverPicture": "https://i.postimg.cc/XJJnrBsx/Desktop-9.png",
-      "url": "",
       "projectMedia": [
         {
           "type": "image",
