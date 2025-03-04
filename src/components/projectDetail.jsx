@@ -15,10 +15,10 @@ const ProjectDetail = () => {
   if (!project) {
     return <h2>Proyecto no encontrado</h2>;
   }
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 800);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 700);
   const [isOpen, setIsOpen] = useState(false);
   const handleResize = () => {
-    setIsMobile(window.innerWidth <= 800);
+    setIsMobile(window.innerWidth <= 700);
   };
   const hiddenContent = () => {
     setIsOpen(false);
@@ -43,7 +43,7 @@ const ProjectDetail = () => {
               {project.projectMedia?.map((object, index) => (
                 <div
                   className="visual-carousel-img"
-                  style={{ backgroundImage: `url(${object.url})` }}
+                  style={{ backgroundImage: `url(${object.smartphone})` }}
                   key={index}
                 />
               ))}

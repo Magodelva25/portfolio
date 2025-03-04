@@ -504,6 +504,7 @@ a {
   .hero {
     grid-area: hero;
     border-right: 0.5px solid var(--border-main-color);
+    border-bottom: 0.5px solid var(--border-main-color);
     margin: 0;
     padding: 0;
   }
@@ -533,6 +534,7 @@ a {
 .info {
   grid-area: info;
   background-color: #807272;
+  border-bottom:  0.5px solid var(--border-main-color);
 }
 
 /* Tech cards styles */
@@ -751,7 +753,12 @@ a {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 360px;
+  height: 450px;
+}
+
+.project-carousel-card{
+  width: 100%;
+  height: 350px;
 }
 
 
@@ -763,7 +770,7 @@ a {
 
 .visual-carousel-img {
   width: 100%;
-  height: 600px;
+  height: 450px;
   background-position-y: center;
   background-position-x: center;
   background-size: cover;
@@ -838,7 +845,7 @@ a {
   font-style: italic;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .project-detail {
     grid-area: main-content;
     display: grid;
@@ -846,6 +853,8 @@ a {
     grid-template-rows: auto;
     grid-template-areas: "visual visual description";
     height: 100%;
+    border-inline: 0.5px solid var(--border-main-color);
+    
   }
 
   .project-detail-hidden {
@@ -855,6 +864,7 @@ a {
     grid-template-rows: auto;
     grid-template-areas: "visual visual visual";
     height: 100%;
+    border-inline: 0.5px solid var(--border-main-color);
   }
 
   .visual-carousel {
@@ -867,17 +877,16 @@ a {
 
   .project-carousel-card{
 
-    display: flex;
-    flex-direction: column;
-    border-right: 0.5px solid var(--border-main-color);
     width: 100%;
-    height: auto;
 
   }
 
-  .visual-carousel > img {
+  .visual-carousel-img{
     width: 100%;
-    height: max-content;
+    height: 700px;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
   }
 
   .project-content {

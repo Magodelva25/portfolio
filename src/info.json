@@ -115,15 +115,18 @@
       "projectMedia": [
         {
           "type": "image",
-          "url": "https://i.postimg.cc/7ZHLQnqN/Cover.png"
+          "url": "https://i.postimg.cc/W39Yqfrt/Cover-extended.png",
+          "smartphone":"https://i.postimg.cc/kX9HB8L0/Cover-small.png"
         },
         {
           "type": "image",
-          "url": "https://i.postimg.cc/MZs0hkkQ/Desktop-10.png"
+          "url": "https://i.postimg.cc/L5P1zn7w/my-habits-2.png",
+          "smartphone":"https://i.postimg.cc/c1VnmBdz/my-habits-2-small.png"
         },
         {
           "type": "image",
-          "url": "https://i.postimg.cc/L6nkSyR0/Desktop-11.png"
+          "url": "https://i.postimg.cc/W39Yqfrt/Cover-extended.png",
+          "smartphone":""
         }
       ]
     },
