@@ -368,9 +368,8 @@ a {
 }
 
 .nav-links {
-  width: 200px;
   height: 60px;
-  border-right: 0.5px solid var(--border-main-color);
+  border-left: 0.5px solid var(--border-main-color);
 }
 
 .nav-links ul {
@@ -383,6 +382,19 @@ a {
   padding: 0;
   height: 60px;
 }
+
+.nav-links > ul > li{
+
+  border-right: 0.5px solid var(--border-main-color);
+  display: flex;
+  width: auto;
+  height: 100%;
+  padding-inline: 30px;
+  justify-content: center;
+  align-items: center;
+
+}
+
 
 .socials {
   width: 60px;
@@ -1118,6 +1130,7 @@ a {
     justify-content: space-between;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    border-right: 0.5px solid var(--border-main-color);
   }
 
 
