@@ -7,7 +7,7 @@ const ProjectCard = ({ name, coverPicture }) => {
 
   return (
     <div className="project-card">
-      <Link to={projectUrl} className="project-card-img" style={{backgroundImage:`url(${coverPicture})`}} />
+      <Link to={projectUrl} className={`project-card-img ${name}`} style={{backgroundImage:`url(${coverPicture})`}} />
     </div>
   );
 };

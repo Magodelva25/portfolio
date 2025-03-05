@@ -640,8 +640,9 @@ a {
   display: flex;
   flex-direction: column;
   border-right: 0.5px solid var(--border-main-color);
+  border-block: 0.5px solid var(--border-main-color);
   width: 100%;
-  height: auto;
+  height: 450px;
 }
 
 /* .project-card-handler {
@@ -662,17 +663,23 @@ a {
 
 .project-card-img {
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: center;
 }
 
+.project-card-img .ampere {
+
+  border-right: 0;
+}
+
+
 @media (min-width: 768px) {
   .project-card-img {
-    width: 100%;
-    height: 600px;
+    width: auto;
+    height: 550px;
     background-position-y: center;
     background-position-x: center;
     background-size: cover;
@@ -802,8 +809,8 @@ a {
 
 .project-description {
   padding: 20px;
-  word-break: break-all;
 }
+
 
 .project-tags {
   display: flex;
@@ -825,7 +832,7 @@ a {
 }
 
 .tag-card > span {
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   font-weight: 700;
   font-style: italic;
 }
@@ -843,6 +850,18 @@ a {
   font-size: 1rem;
   font-weight: 600;
   font-style: italic;
+  padding-inline: 20px;
+}
+
+.project-description > p{
+
+  color: var(--text-default-color);
+  margin: 0;
+  padding: 20px;
+  text-align: start;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+
 }
 
 @media (min-width: 700px) {
@@ -939,9 +958,10 @@ a {
     padding: 20px;
     height: 470px;
     overflow-y: scroll;
-    word-break: break-all;
     scroll-behavior: smooth;
   }
+
+  
 
   .description-header {
     flex-direction: column;
@@ -996,18 +1016,27 @@ a {
 .about-title > h2 {
   font-size: clamp(1.3rem, 8vw, 3rem);
   font-style: italic;
-  padding-inline: 15px;
+  padding-inline: 20px;
   padding-top: 15px;
 }
 .about-title > span {
   font-size: clamp(1rem, 3vw, 2rem);
   font-weight: 100;
-  padding-inline: 15px;
+  padding-inline: 20px;
   padding-bottom: 15px;
   font-style: italic;
   word-break: normal;
+  color: var(--text-default-color);
 }
+.about-title > p {
 
+  font-size: 1rem;
+  font-weight: 200;
+  color: var(--text-default-color);
+  padding: 20px;
+  padding-top: 0;
+
+}
 .about-content {
   grid-area: about-content;
   display: flex;
@@ -1028,11 +1057,11 @@ a {
   .about-section {
     grid-area: main-content;
     display: grid;
-    grid-template-columns: 1fr 400px;
-    grid-template-rows: minmax(280px, 300px) auto;
+    grid-template-columns: 550px 1fr;
+    grid-template-rows: auto auto;
     grid-template-areas:
       "about-title about-picture"
-      "about-content hobbies";
+      "hobbies about-picture";
     border-inline: 0.5px solid var(--border-main-color);
   }
 
@@ -1045,8 +1074,8 @@ a {
   }
 
   .about-picture > img {
-    width: 100%;
-    height: 150px;
+    width: auto;
+    height: 100%;
   }
 
   .about-title {
@@ -1090,6 +1119,7 @@ a {
     overflow-y: scroll;
     scroll-behavior: smooth;
   }
+
 
   .hobbies-list {
     height: 330px;

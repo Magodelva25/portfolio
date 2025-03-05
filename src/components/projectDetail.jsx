@@ -57,8 +57,8 @@ const ProjectDetail = () => {
             <div className="project-description">
               <div className="description-header">
                 <div className="project-tags">
-                  {project.keywords?.map((keyword, i) => (
-                    <TagBadge key={`${project.name}-${i}`} content={keyword} />
+                  {project.technologies?.map((technologies, i) => (
+                    <TagBadge key={`${project.name}-${i}`} content={technologies} />
                   ))}
                 </div>
                 <div className="important-data">

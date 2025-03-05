@@ -17,8 +17,6 @@ const About = () => {
       <div className='about-title'>
         <h2>{about.title}</h2>
         <span>{about.label}</span>
-      </div>
-      <div className='about-content'>
         <p>{about.content}</p>
       </div>
       <div className='hobbies'>

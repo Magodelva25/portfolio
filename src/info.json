@@ -20,7 +20,11 @@
       "Ping-Pong",
       "Streamings",
       "Traveling",
-      "Pets"
+      "Pets",
+      "Music",
+      "Handcraft",
+      "History",
+      "Art"
     ]
   },
 
@@ -106,12 +110,12 @@
     {
       "name": "My habits",
       "year": "2022",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id maximus eros. Sed imperdiet arcu nibh, at laoreet nunc suscipit eget. Phasellus in ornare lectus. Morbi eu aliquam nisl, sit amet consequat libero. Vivamus dui felis, venenatis ut ipsum sit amet, efficitur rhoncus tortor. Vestibulum ut tellus nisi. Ut quis aliquam dui. Nam interdum vehicula ligula. Aliquam dapibus, mi vitae facilisis sodales, massa nulla bibendum ipsum, sed sollicitudin lacus libero porta magna. Vestibulum eu iaculis diam. Sed elementum velit vitae enim pretium, non tincidunt metus faucibus. Maecenas nec eros magna. Pellentesque pharetra elit nec nulla aliquet, eu vehicula diam vestibulum. Nullam euismod egestas scelerisque.Pellentesque lobortis dapibus dui sit amet volutpat. Pellentesque ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id maximus eros. Sed imperdiet arcu nibh, at laoreet nunc suscipit eget. Phasellus in ornare lectus. Morbi eu aliquam nisl, sit amet consequat libero. Vivamus dui felis, venenatis ut ipsum sit amet, efficitur rhoncus tortor. Vestibulum ut tellus nisi. Ut quis aliquam dui. Nam interdum vehicula ligula. Aliquam dapibus, mi vitae facilisis sodales, massa nulla bibendum ipsum, sed sollicitudin lacus libero porta magna. Vestibulum eu iaculis diam. Sed elementum velit vitae enim pretium, non tincidunt metus faucibus. Maecenas nec eros magna. Pellentesque pharetra elit nec nulla aliquet, eu vehicula diam vestibulum. Nullam euismod egestas scelerisque.Pellentesque lobortis dapibus dui sit amet volutpat. Pellentesque ultricies.",
+      "description": "Trabajo de fin de Máster 2025. Dashboard de gestión de hábitos con seguimiento diario y ranking de usuarios basados en los puntos que el usuario recibe al completar sus hábitos. El usuario dispondrá de diferentes opciones de creación de cuenta, tanto formulario básico como mediante Google (con su cuenta de Gmail). Una vez dentro, el usuario dispone de una base de datos pre-configurada donde podrá elegir tantos hábitos como le interese hacer el seguimiento. Cada hábito podrá ser completado una vez al día para evitar el spam continuo de puntos.",
       "coverPicture": "https://i.postimg.cc/7ZHLQnqN/Cover.png",
-      "url": "https://project.com/",
-      "client": "Ampere Energy",
+      "url": "",
+      "client": "My Habits",
       "location": "Madrid, Spain",
-      "keywords": ["UX/UI", "Concepts", "App"],
+      "keywords": ["REACT", "PYTHON", "REST API", "FLASK"],
       "projectMedia": [
         {
           "type": "image",
@@ -133,22 +137,23 @@
     {
       "name": "My ampere",
       "year": "2021",
-      "description": "Description...",
+      "description": "Aplicación de gestión energética de tu hogar. Con un simple vistazo puedes estar al día del flujo de energía de tu hogar. Desde tus placas del hogar hasta monitorizar el consumo tu lavadora este sistema te permite controlar en tiempo real el consumo y el estado de todos los dispositivos de tu hogar. Podrás controlar los costes de la energía inyectada de la red y el beneficio obtenido al vender tus excedentes. Podrás revisar el estado de tus dispositivos Ampere, sus niveles de carga y mantenimientos.",
+
       "coverPicture": "https://i.postimg.cc/tgbj7XMC/imagen-1.jpg",
-      "url": "https://project.com/",
+      "url": "",
+      "client": "Ampere Energy",
+      "location": "Madrid, Spain",
+      "keywords": ["FIGMA", "ADOBE", "XD", "INVISION"],
       "projectMedia": [
         {
           "type": "image",
-          "url": "url"
+          "url": "https://i.postimg.cc/tgbj7XMC/imagen-1.jpg"
         },
         {
           "type": "image",
-          "url": "url"
-        },
-        {
-          "type": "image",
-          "url": "url"
+          "url": "https://i.postimg.cc/XJJnrBsx/Desktop-9.png"
         }
+
       ]
     }
   ]
