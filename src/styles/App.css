@@ -38,6 +38,7 @@ a {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--border-main-color);
 }
 
 :root {

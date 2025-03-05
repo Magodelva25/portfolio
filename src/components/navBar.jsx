@@ -63,6 +63,11 @@ const NavBar = () => {
                 <div className="nav-handlers-burguer">
                   <div className="nav-links-burguer">
                     <ul>
+                    <li>
+                      <Link to={"/"} onClick={handleMenu}>
+                        <p>Home</p>
+                      </Link>
+                      </li>
                       <li>
                       <Link to={"/about"} onClick={handleMenu}>
                         <p>About</p>
@@ -105,6 +110,11 @@ const NavBar = () => {
           <div className="nav-handlers">
             <div className="nav-links">
               <ul>
+              <li>
+                      <Link to={"/"} onClick={handleMenu}>
+                        <p>Home</p>
+                      </Link>
+                      </li>
                 <li>
                   <Link to={"/about"}>
                     <p>About</p>
