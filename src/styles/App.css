@@ -2,10 +2,10 @@
 
 html,
 body {
+  width: 100vw;
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: var(--background-color);
   scrollbar-color: transparent transparent;
   scroll-behavior: smooth;
   transition: ease-in;
@@ -38,7 +38,6 @@ a {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--border-main-color);
 }
 
 :root {
