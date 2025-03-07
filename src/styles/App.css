@@ -159,7 +159,7 @@ a {
 .burger-content-container {
   position: fixed;
   top: 25px;
-  right: 25px;
+  right: 16px;
   width: 300px;
   height: auto;
   background-color: var(--burguer-content-background);
@@ -335,6 +335,42 @@ a {
   height: 50px;
 }
 
+.nav-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--border-main-color);
+  transition: transform 0.3s ease-out;
+}
+
+.nav-item:hover::before {
+  transform: translateX(100%);
+}
+
+.nav-item p {
+  position: relative;
+  z-index: 10;
+  color: var(--border-main-color);
+  text-decoration: none;
+  transition: color 0.3s ease-out;
+  font-weight: 300;
+}
+
+.nav-item:hover p {
+  color: var(--background-color);
+}
+
+
+
+
 /* complete nav styles  */
 .nav {
   grid-area: nav;
@@ -494,8 +530,8 @@ a {
 }
 
 .hero-title > h1 {
-  font-size: 3.6rem;
-  line-height: 1.1;
+  font-size: 4.6rem;
+  line-height: 0.9;
   font-weight: 900;
   font-family: "Roboto", sans-serif;
   font-style: italic;
@@ -797,10 +833,11 @@ a {
 
 .project-title {
   width: 100%;
+  height: 66px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-block: 0.5px solid var(--border-main-color);
+  border-bottom: 0.5px solid var(--border-main-color);
 }
 
 .project-title > h2 {
@@ -929,13 +966,15 @@ a {
 
   .handler-content {
     position: absolute;
+    overflow: hidden;
     display: flex;
     flex-direction: row-reverse;
     right: 25px;
-    top: 84px;
-    width: auto;
+    top: 85px;
+    width: 81px;
     height: 66px;
     border: 0.5px solid var(--border-main-color);
+    border-top: 0;
     justify-content: space-evenly;
     align-items: center;
     cursor: pointer;
@@ -944,31 +983,88 @@ a {
     background-color: var(--background-color);
   }
 
-  .handler-content:hover .content-icon {
-    transform: translateX(-10px);
-    margin-left: 10px;
-    transition: transform 0.1s ease-in-out;
+
+  .handler-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .handler-content:hover::before {
+    transform: translateX(100%);
+  }
+  
+  .handler-content svg span {
+    color: var(--border-main-color);
   }
 
+  .handler-content span {
+    color: var(--border-main-color);
+    font-weight: 300;
+  }
+
+  .handler-content:hover svg{
+    position: relative;
+    z-index: 10;
+    color: var(--background-color);
+    transition: color 0.1s ease-in-out;
+  }
+
+  .handler-content:hover span{
+    position: relative;
+    z-index: 10;
+    color: var(--background-color);
+    transition: color 0.1s ease-in-out;
+    font-weight: 300;
+  }
+  
+
   .close-handler {
-    width: auto;
+    overflow: hidden;
+    position: relative;
+    width: 50px;
     height: 66px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-inline: 20px;
     border-right: 0.5px solid var(--border-main-color);
-    transition: all 0.3s ease-in-out;
+  }
+  .close-handler::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .close-handler:hover::before {
+    transform: translateX(100%);
   }
 
-  .close-handler:hover .close-icon {
-    transform: translateX(10px);
-    margin-right: 10px;
-    transition: transform 0.1s ease-in-out;
+  .close-handler svg {
+    color: var(--border-main-color);
   }
+
+  .close-handler:hover svg {
+    position: relative;
+    z-index: 10;
+    color: var(--background-color);
+    transition: color 0.1s ease-in-out;
+    font-weight: 300;
+  }
+
   .project-description {
     padding: 20px;
-    height: 470px;
+    height: auto;
     overflow-y: scroll;
     scroll-behavior: smooth;
   }

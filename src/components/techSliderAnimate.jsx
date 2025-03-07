@@ -9,7 +9,7 @@ const TechSliderAnimate = () => {
   // Generamos los elementos a mostrar
   const techItems = skills.flatMap((skill, skillIndex) =>
     skill.keywords.map((keyword, index) => (
-      <TechCard key={`${skillIndex}-${index}`} techs={keyword} />
+      <TechCard key={`${index}-${keyword}`} techs={keyword} />
     ))
   );
 
@@ -57,7 +57,7 @@ const TechSliderAnimate = () => {
           animate={{ x: "-100%" }}
           transition={{ repeat: Infinity, duration: 50, ease: "linear" }}
         >
-          {techItems.concat(techItems)}
+          {techItems}
         </motion.div>
       </div>
     </div>

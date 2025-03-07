@@ -44,7 +44,7 @@ const ProjectDetail = () => {
                 <div
                   className="visual-carousel-img"
                   style={{ backgroundImage: `url(${object.smartphone})` }}
-                  key={index}
+                  key={`${index}-${object}`}
                 />
               ))}
             </div>
@@ -57,9 +57,12 @@ const ProjectDetail = () => {
             <div className="project-description">
               <div className="description-header">
                 <div className="project-tags">
-                  {project.technologies?.map((technologies, i) => (
-                    <TagBadge key={`${project.name}-${i}`} content={technologies} />
-                  ))}
+                {project.keywords?.map((keyword, i) => (
+                      <TagBadge
+                        key={`${project.name}-${i}`}
+                        content={keyword}
+                      />
+                    ))}
                 </div>
                 <div className="important-data">
                   <p>{project.client}</p>
@@ -112,7 +115,7 @@ const ProjectDetail = () => {
             </div>
           ) : (
             <div className="handler-content" onClick={showingContent}>
-              <span>Open info</span>
+              <span>Info</span>
               <ArrowBackIosIcon className="content-icon" />
             </div>
           )}

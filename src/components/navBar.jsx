@@ -110,17 +110,17 @@ const NavBar = () => {
           <div className="nav-handlers">
             <div className="nav-links">
               <ul>
-              <li>
+              <li className="nav-item">
                       <Link to={"/"} onClick={handleMenu}>
                         <p>Home</p>
                       </Link>
                       </li>
-                <li>
+                      <li className="nav-item">
                   <Link to={"/about"}>
                     <p>About</p>
                   </Link>
                 </li>
-                <li>
+                <li className="nav-item">
                   <p>Contact</p>
                 </li>
               </ul>
