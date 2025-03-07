@@ -1,12 +1,13 @@
-import React from 'react'
-// import MovingArrows from './movingArrows'
+import React from "react";
+import uuundulate from './../assets/uuundulate.svg'
 
 const InfoSection = () => {
+
+
   return (
-    <div className='info'>
-      {/* <MovingArrows /> */}
+    <div className="image-bg" style={{backgroundImage:`url(${uuundulate})`}}>
     </div>
   )
-}
+};
 
-export default InfoSection
+export default InfoSection;

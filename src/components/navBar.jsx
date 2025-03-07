@@ -74,7 +74,9 @@ const NavBar = () => {
                       </Link>
                       </li>
                       <li>
+                      <a href="mailto:migudz@gmail.com">
                         <p>Contact</p>
+                      </a>
                       </li>
                     </ul>
                   </div>
@@ -121,7 +123,9 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <p>Contact</p>
+                <a href="mailto:migudz@gmail.com?subject=Let's have a coffe&body=I've just seen your portfolio and I like your style, I've a project you migth be interested on">
+                        <p>Contact</p>
+                </a>
                 </li>
               </ul>
             </div>
@@ -173,12 +177,14 @@ const NavBar = () => {
               <DownloadIcon />
             </div>
             <div className="qr-code">
+            <a href="mailto:migudz@gmail.com?subject=Let's have a coffe&body=I've just seen your portfolio and I like your style, I've a project you migth be interested on">
               <img
                 src={qrCode}
                 alt="qr-code"
                 style={{ width: "50px", height: "50px" }}
               
               />
+            </a>
 
             </div>
             </div>

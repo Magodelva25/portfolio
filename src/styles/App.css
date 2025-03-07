@@ -368,9 +368,6 @@ a {
   color: var(--background-color);
 }
 
-
-
-
 /* complete nav styles  */
 .nav {
   grid-area: nav;
@@ -419,8 +416,7 @@ a {
   height: 60px;
 }
 
-.nav-links > ul > li{
-
+.nav-links > ul > li {
   border-right: 0.5px solid var(--border-main-color);
   display: flex;
   width: auto;
@@ -428,9 +424,7 @@ a {
   padding-inline: 30px;
   justify-content: center;
   align-items: center;
-
 }
-
 
 .socials {
   width: 60px;
@@ -530,7 +524,7 @@ a {
 }
 
 .hero-title > h1 {
-  font-size: 4.6rem;
+  font-size: 4rem;
   line-height: 0.9;
   font-weight: 900;
   font-family: "Roboto", sans-serif;
@@ -581,8 +575,7 @@ a {
 
 .info {
   grid-area: info;
-  background-color: #807272;
-  border-bottom:  0.5px solid var(--border-main-color);
+  border-bottom: 0.5px solid var(--border-main-color);
 }
 
 /* Tech cards styles */
@@ -719,10 +712,8 @@ a {
 }
 
 .project-card-img .ampere {
-
   border-right: 0;
 }
-
 
 @media (min-width: 768px) {
   .project-card-img {
@@ -811,11 +802,10 @@ a {
   height: 450px;
 }
 
-.project-carousel-card{
+.project-carousel-card {
   width: 100%;
   height: 350px;
 }
-
 
 .visual-carousel::-webkit-scrollbar {
   height: 0.5px;
@@ -860,7 +850,6 @@ a {
   padding: 20px;
 }
 
-
 .project-tags {
   display: flex;
   flex-direction: row;
@@ -902,15 +891,13 @@ a {
   padding-inline: 20px;
 }
 
-.project-description > p{
-
+.project-description > p {
   color: var(--text-default-color);
   margin: 0;
   padding: 20px;
   text-align: start;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 200;
-
 }
 
 @media (min-width: 700px) {
@@ -922,7 +909,6 @@ a {
     grid-template-areas: "visual visual description";
     height: 100%;
     border-inline: 0.5px solid var(--border-main-color);
-    
   }
 
   .project-detail-hidden {
@@ -943,13 +929,11 @@ a {
     height: auto;
   }
 
-  .project-carousel-card{
-
+  .project-carousel-card {
     width: 100%;
-
   }
 
-  .visual-carousel-img{
+  .visual-carousel-img {
     width: 100%;
     height: 700px;
     background-position-y: center;
@@ -983,7 +967,6 @@ a {
     background-color: var(--background-color);
   }
 
-
   .handler-content::before {
     content: "";
     position: absolute;
@@ -994,11 +977,11 @@ a {
     background: black;
     transition: transform 0.3s ease-out;
   }
-  
+
   .handler-content:hover::before {
     transform: translateX(100%);
   }
-  
+
   .handler-content svg span {
     color: var(--border-main-color);
   }
@@ -1008,21 +991,20 @@ a {
     font-weight: 300;
   }
 
-  .handler-content:hover svg{
+  .handler-content:hover svg {
     position: relative;
     z-index: 10;
     color: var(--background-color);
     transition: color 0.1s ease-in-out;
   }
 
-  .handler-content:hover span{
+  .handler-content:hover span {
     position: relative;
     z-index: 10;
     color: var(--background-color);
     transition: color 0.1s ease-in-out;
     font-weight: 300;
   }
-  
 
   .close-handler {
     overflow: hidden;
@@ -1045,7 +1027,7 @@ a {
     background: black;
     transition: transform 0.3s ease-out;
   }
-  
+
   .close-handler:hover::before {
     transform: translateX(100%);
   }
@@ -1068,8 +1050,6 @@ a {
     overflow-y: scroll;
     scroll-behavior: smooth;
   }
-
-  
 
   .description-header {
     flex-direction: column;
@@ -1137,13 +1117,11 @@ a {
   color: var(--text-default-color);
 }
 .about-title > p {
-
   font-size: 1rem;
   font-weight: 200;
   color: var(--text-default-color);
   padding: 20px;
   padding-top: 0;
-
 }
 .about-content {
   grid-area: about-content;
@@ -1229,7 +1207,6 @@ a {
     border-right: 0.5px solid var(--border-main-color);
   }
 
-
   .hobbies-list {
     height: 330px;
   }
@@ -1239,5 +1216,51 @@ a {
   }
   .hobbies :only-child {
     border-right: 0;
+  }
+}
+
+/* INFO CONTENT */
+
+.info-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.li-container-item {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.li-container-item > li {
+  list-style: none;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  border: 0.5px solid var(--border-main-color);
+}
+
+.image-bg {
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100%;
+  background-size: cover;
+  background-position-y: center;
+}
+
+@media (max-width:768px){
+
+  .image-bg{
+
+    border-top: 0.5px solid var(--border-main-color);
+
   }
 }
