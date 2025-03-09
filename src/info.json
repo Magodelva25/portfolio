@@ -119,18 +119,13 @@
       "projectMedia": [
         {
           "type": "image",
-          "url": "https://i.postimg.cc/W39Yqfrt/Cover-extended.png",
-          "smartphone":"https://i.postimg.cc/kX9HB8L0/Cover-small.png"
+          "url": "https://i.postimg.cc/FRD20CWC/Cover-extended.jpg",
+          "smartphone":"https://i.postimg.cc/jqWB9cLN/Cover-small.jpg"
         },
         {
           "type": "image",
-          "url": "https://i.postimg.cc/L5P1zn7w/my-habits-2.png",
-          "smartphone":"https://i.postimg.cc/c1VnmBdz/my-habits-2-small.png"
-        },
-        {
-          "type": "image",
-          "url": "https://i.postimg.cc/W39Yqfrt/Cover-extended.png",
-          "smartphone":""
+          "url": "https://i.postimg.cc/R0T8zbBC/Cover-extended-2.jpg",
+          "smartphone":"https://i.postimg.cc/hhWL3chC/Cover-small-2.jpg"
         }
       ]
     },

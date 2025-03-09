@@ -15,6 +15,10 @@ body {
 p {
   color: var(--text-default-color);
   margin: 0;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 20px;
+  padding-top: 0;
 }
 
 h1,
@@ -355,7 +359,7 @@ a {
   transform: translateX(100%);
 }
 
-.nav-item p {
+.nav-item span {
   position: relative;
   z-index: 10;
   color: var(--border-main-color);
@@ -364,7 +368,7 @@ a {
   font-weight: 300;
 }
 
-.nav-item:hover p {
+.nav-item:hover span {
   color: var(--background-color);
 }
 
@@ -884,7 +888,7 @@ a {
   border-block: 0.5px solid var(--border-main-color);
 }
 
-.important-data > p {
+.important-data > span {
   font-size: 1rem;
   font-weight: 600;
   font-style: italic;
@@ -1116,13 +1120,13 @@ a {
   word-break: normal;
   color: var(--text-default-color);
 }
-.about-title > p {
+/* .about-title > p {
   font-size: 1rem;
   font-weight: 200;
   color: var(--text-default-color);
   padding: 20px;
   padding-top: 0;
-}
+} */
 .about-content {
   grid-area: about-content;
   display: flex;

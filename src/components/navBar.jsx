@@ -65,17 +65,17 @@ const NavBar = () => {
                     <ul>
                     <li>
                       <Link to={"/"} onClick={handleMenu}>
-                        <p>Home</p>
+                        <span>Home</span>
                       </Link>
                       </li>
                       <li>
                       <Link to={"/about"} onClick={handleMenu}>
-                        <p>About</p>
+                        <span>About</span>
                       </Link>
                       </li>
                       <li>
                       <a href="mailto:migudz@gmail.com">
-                        <p>Contact</p>
+                        <span>Contact</span>
                       </a>
                       </li>
                     </ul>
@@ -114,17 +114,17 @@ const NavBar = () => {
               <ul>
               <li className="nav-item">
                       <Link to={"/"} onClick={handleMenu}>
-                        <p>Home</p>
+                        <span>Home</span>
                       </Link>
                       </li>
                       <li className="nav-item">
                   <Link to={"/about"}>
-                    <p>About</p>
+                    <span>About</span>
                   </Link>
                 </li>
                 <li className="nav-item">
                 <a href="mailto:migudz@gmail.com?subject=Let's have a coffe&body=I've just seen your portfolio and I like your style, I've a project you migth be interested on">
-                        <p>Contact</p>
+                        <span>Contact</span>
                 </a>
                 </li>
               </ul>
