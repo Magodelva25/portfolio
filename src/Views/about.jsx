@@ -24,8 +24,7 @@ const About = () => {
           {hobbies}
         </div>
       </div>
-      <div className='about-picture'>
-        <img src={basics.image} alt="Manuel-Gonzalez" />
+      <div className='about-picture' style={{ backgroundImage: `url(${basics.image})` }}>
       </div>
     </div>
   )

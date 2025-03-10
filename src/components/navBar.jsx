@@ -112,11 +112,7 @@ const NavBar = () => {
           <div className="nav-handlers">
             <div className="nav-links">
               <ul>
-              <li className="nav-item">
-                      <Link to={"/"} onClick={handleMenu}>
-                        <span>Home</span>
-                      </Link>
-                      </li>
+              
                       <li className="nav-item">
                   <Link to={"/about"}>
                     <span>About</span>
@@ -174,14 +170,16 @@ const NavBar = () => {
               <DarkMode />
             </div>
             <div className="download">
-              <DownloadIcon />
+              <a href="./../assets/Manuel-Gonzalez_cv_2025.pdf" download="Manuel-Gonzalez_cv_2025.pdf">
+                <DownloadIcon />
+              </a>
             </div>
             <div className="qr-code">
             <a href="mailto:migudz@gmail.com?subject=Let's have a coffe&body=I've just seen your portfolio and I like your style, I've a project you migth be interested on">
               <img
                 src={qrCode}
                 alt="qr-code"
-                style={{ width: "50px", height: "50px" }}
+                style={{ width: "50px", height: "50px", paddingTop:"4px" }}
               
               />
             </a>

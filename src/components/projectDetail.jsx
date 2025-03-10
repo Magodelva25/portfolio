@@ -65,8 +65,8 @@ const ProjectDetail = () => {
                     ))}
                 </div>
                 <div className="important-data">
-                  <p>{project.client}</p>
-                  <p>{project.location}</p>
+                  <span>{project.client}</span>
+                  <span>{project.location}</span>
                 </div>
               </div>
               <p>{project.description}</p>

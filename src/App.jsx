@@ -14,6 +14,7 @@ import "./styles/App.css";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [loader, setLoader] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   
   setTimeout(() => {
     setLoader(false);
@@ -24,6 +25,18 @@ function App() {
       setIsLoading(false);
     }, 2000);
   }, []);
+
+
+useEffect(() => {
+  const getItem = localStorage.getItem("selectedTheme") || "light"; // Por defecto a "light"
+  if (getItem === "dark") {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    setDarkMode(true);
+  } else {
+    document.documentElement.setAttribute('data-theme', 'light');
+    setDarkMode(false);
+  }
+}, []); 
 
   return (
     <div>

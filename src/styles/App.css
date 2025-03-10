@@ -10,6 +10,7 @@ body {
   scroll-behavior: smooth;
   transition: ease-in;
   animation-duration: 3s;
+  background-color: var(--background-color);
 }
 
 p {
@@ -19,6 +20,10 @@ p {
   font-size: 1rem;
   padding: 20px;
   padding-top: 0;
+  font-family: 'Roboto', sans-serif;
+}
+span{
+  color:var(--text-default-color)
 }
 
 h1,
@@ -53,6 +58,7 @@ a {
   --button-color: #000000;
   --button-icon-color: #ffffff;
   --icon-default-color: #000000;
+  --bg-image: url('./../assets/uuundulateDark.svg');
 }
 
 [data-theme="dark"] {
@@ -63,6 +69,7 @@ a {
   --button-color: #ffffff;
   --button-icon-color: #000000;
   --icon-default-color: #fdfdfd;
+  --bg-image: url('./../assets/uuundulateWhite.svg');
 }
 
 .loading-screen {
@@ -200,8 +207,10 @@ a {
 }
 
 .close-button > svg {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  color: var(--icon-default-color);
 }
 
 .nav-handlers-burguer {
@@ -237,12 +246,24 @@ a {
   align-items: center;
   border-bottom: 0.5px solid var(--border-main-color);
 }
-.nav-links-burguer ul li p {
+
+.nav-links-burguer ul li > a {
+
+text-decoration: none;
+color: var(--text-default-color);
+
+}
+
+
+
+.nav-links-burguer ul li span {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   margin: 0;
   padding-left: 30px;
 }
+
+
 
 .socials > svg {
   color: var(--icon-default-color);
@@ -309,7 +330,7 @@ a {
 }
 
 .brand-behance {
-  font-size: 27px;
+  font-size: 23px;
   color: var(--icon-default-color);
 }
 
@@ -364,8 +385,9 @@ a {
   z-index: 10;
   color: var(--border-main-color);
   text-decoration: none;
-  transition: color 0.3s ease-out;
-  font-weight: 300;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-style: italic;
 }
 
 .nav-item:hover span {
@@ -431,6 +453,8 @@ a {
 }
 
 .socials {
+  position: relative;
+  overflow: hidden;
   width: 60px;
   height: 60px;
   display: flex;
@@ -438,6 +462,29 @@ a {
   justify-content: center;
   border-right: 0.5px solid var(--border-main-color);
 }
+
+.socials::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--border-main-color);
+  transition: transform 0.3s ease-out;
+}
+
+.socials:hover::before{
+  transform: translateX(100%);
+}
+
+.socials:hover svg {
+  color: var(--background-color);
+  position: relative;
+  z-index: 10;
+
+}
+
 
 .socials-hidden {
   width: 200px;
@@ -447,6 +494,8 @@ a {
 }
 
 .download {
+  position: relative;
+  overflow: hidden;
   width: 60px;
   height: 60px;
   display: flex;
@@ -455,8 +504,34 @@ a {
   border-right: 0.5px solid var(--border-main-color);
 }
 
-.download > svg {
+.download > a svg {
   color: var(--icon-default-color);
+  padding-top: 5px;
+  height: 28px;
+  width: 28px;
+
+}
+
+.download::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--border-main-color);
+  transition: transform 0.3s ease-out;
+}
+
+.download:hover::before{
+  transform: translateX(100%);
+}
+
+.download:hover svg {
+  color: var(--background-color);
+  position: relative;
+  z-index: 10;
+
 }
 
 .qr-code {
@@ -465,6 +540,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.qr-code:hover{
+
+  transform: scale(160%);
+  transition: ease-in;
+
 }
 
 /* footer styles */
@@ -528,7 +610,7 @@ a {
 }
 
 .hero-title > h1 {
-  font-size: 4rem;
+  font-size: 3.63rem;
   line-height: 0.9;
   font-weight: 900;
   font-family: "Roboto", sans-serif;
@@ -755,6 +837,8 @@ a {
 /* Dark mode styles */
 
 .darkmode {
+  position: relative;
+  overflow: hidden;
   cursor: pointer;
   width: 60px;
   height: 60px;
@@ -769,15 +853,28 @@ a {
   height: 30px;
 }
 
-/* .darkmode:hover{
+.darkmode::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--border-main-color);
+  transition: transform 0.3s ease-out;
+}
 
-  
-  background-color: var(--body_sumbit_button);
-  border: 1px solid var(--body_color);
-  border-radius: 30px;
-  color:var(--body_sumbit_button_text);
+.darkmode:hover::before{
+  transform: translateX(100%);
+}
 
-} */
+.darkmode:hover svg {
+  color: var(--background-color);
+  position: relative;
+  z-index: 10;
+
+}
+
 
 .dark-mode-handler {
   display: flex;
@@ -785,6 +882,9 @@ a {
 
 .dark-mode-handler > svg {
   color: var(--icon-default-color);
+  width: 30px;
+  height: 30px;
+
 }
 
 /* Project page styles */
@@ -895,14 +995,6 @@ a {
   padding-inline: 20px;
 }
 
-.project-description > p {
-  color: var(--text-default-color);
-  margin: 0;
-  padding: 20px;
-  text-align: start;
-  font-family: "Roboto", sans-serif;
-  font-weight: 200;
-}
 
 @media (min-width: 700px) {
   .project-detail {
@@ -978,7 +1070,7 @@ a {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: black;
+    background: var(--button-color);
     transition: transform 0.3s ease-out;
   }
 
@@ -986,7 +1078,11 @@ a {
     transform: translateX(100%);
   }
 
-  .handler-content svg span {
+  .handler-content:hover svg {
+    color: var(--burguer-content-background);
+  }
+
+  .handler-content svg {
     color: var(--border-main-color);
   }
 
@@ -1080,7 +1176,7 @@ a {
   grid-area: main-content;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: 330px auto auto;
   grid-template-areas:
     "about-picture"
     "about-title"
@@ -1092,12 +1188,11 @@ a {
   grid-area: about-picture;
   display: flex;
   justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center ;
 }
 
-.about-picture > img {
-  max-width: 100%;
-  height: auto;
-}
 
 .about-title {
   grid-area: about-title;
@@ -1178,16 +1273,13 @@ a {
   .about-title > h2 {
     font-size: clamp(2.5rem, 10vw, 4rem);
     font-style: italic;
-    padding-inline: 20px;
-    padding-top: 20px;
-    margin-bottom: 10px;
+    padding: 20px 30px 10px 20px;
     line-height: 3.2rem;
   }
   .about-title > span {
     font-size: clamp(1.6rem, 8vw, 2.5rem);
     font-weight: 100;
-    padding-left: 20px;
-    padding-right: 18px;
+    padding-inline: 20px;
     font-style: italic;
   }
 
@@ -1253,11 +1345,18 @@ a {
 }
 
 .image-bg {
+  background-image: var(--bg-image);
   background-repeat: no-repeat;
   width: auto;
   height: 100%;
   background-size: cover;
   background-position-y: center;
+}
+
+.image-bg > svg {
+
+  color: var(--border-main-color);
+
 }
 
 @media (max-width:768px){
