@@ -3,11 +3,10 @@ services:
     name: mango-portfolio
     env: node
     plan: free
-    buildCommand: npm install --production=false && npx vite build
+    buildCommand: npm install && npx vite build
     startCommand: npm run preview
     envVars:
       - key: NODE_VERSION
-        value: 22.10
-      - key: ENABLE_BUN
-        value: "false"
-        
+        value: 18
+      - key: PORT
+        value: 4173
