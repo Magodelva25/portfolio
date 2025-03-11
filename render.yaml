@@ -8,3 +8,6 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 22.10
+      - key: ENABLE_BUN
+        value: "false"
+        
