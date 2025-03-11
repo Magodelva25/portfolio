@@ -2,9 +2,9 @@ services:
   - type: web
     name: Mango-portfolio
     env: static
-    staticPublishPath: public
+    staticPublishPath: dist
     buildCommand: npm install && npm run build
-    startCommand: npm run dev
+    startCommand: npm start
     envVars:
       - key: NODE_ENV
         value: production

@@ -74,7 +74,7 @@ const NavBar = () => {
                       </Link>
                       </li>
                       <li>
-                      <a href="mailto:migudz@gmail.com">
+                      <a href={`mailto:${basics.email}`}>
                         <span>Contact</span>
                       </a>
                       </li>
@@ -119,7 +119,7 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                <a href="mailto:migudz@gmail.com?subject=Let's have a coffe&body=I've just seen your portfolio and I like your style, I've a project you migth be interested on">
+                <a href={`mailto:${basics.email}?subject="Let's have a coffe"&body="I've just seen your portfolio and I like your style, I've a project you migth be interested on"`}>
                         <span>Contact</span>
                 </a>
                 </li>
@@ -175,7 +175,7 @@ const NavBar = () => {
               </a>
             </div>
             <div className="qr-code">
-            <a href="mailto:migudz@gmail.com?subject=Let's have a coffe&body=I've just seen your portfolio and I like your style, I've a project you migth be interested on">
+            <a href={`mailto:${basics.email}?subject="Let's have a coffe"&body="I've just seen your portfolio and I like your style, I've a project you migth be interested on"`}>
               <img
                 src={qrCode}
                 alt="qr-code"
