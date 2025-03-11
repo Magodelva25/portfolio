@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: Mango-portfolio
-    env: static
-    staticPublishPath: dist
-    buildCommand: npm install && npm run build
-    startCommand: npm run dev
+    name: mango-portfolio
+    env: node
+    plan: free
+    buildCommand: npm install --production=false && npm run build
+    startCommand: npm run preview
     envVars:
-      - key: NODE_ENV
-        value: production
+      - key: NODE_VERSION
+        value: 22.10
