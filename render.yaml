@@ -3,7 +3,7 @@ services:
     name: mango-portfolio
     env: node
     plan: free
-    buildCommand: npm install --force && npm run build
+    buildCommand: npx vite build
     startCommand: npm run preview
     envVars:
       - key: NODE_VERSION
