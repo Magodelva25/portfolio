@@ -1,9 +1,6 @@
 import { text } from "framer-motion/client";
 import React from "react";
 
-
-
-
 const Policy = () => {
 
 
@@ -92,4 +89,4 @@ mango.dev.35@gmail.com
   );
 };
 
-export default Landing;
+export default Policy;
