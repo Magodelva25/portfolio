@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import info from "../info.json";
 import TagBadge from "./tagBadge";
 import VisitButton from "./VisitButton";
@@ -109,14 +110,13 @@ const ProjectDetail = () => {
                   </div>
                 </div>
                 <p>{project.description}</p>
-
-                <div>
-                <VisitButton
-                  url={project.url}
-                />
+                <Link to={project.url} target="_blank">
+                <div className="visit-button">
+                <VisitButton/>
+                </div>
+                </Link>
               </div>
               </div>
-            </div>
           ) : (
             <div className="handler-content" onClick={showingContent}>
               <span>Info</span>

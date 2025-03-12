@@ -63,19 +63,14 @@ const NavBar = () => {
                 <div className="nav-handlers-burguer">
                   <div className="nav-links-burguer">
                     <ul>
-                    <li>
-                      <Link to={"/"} onClick={handleMenu}>
-                        <span>Home</span>
-                      </Link>
-                      </li>
                       <li>
                       <Link to={"/about"} onClick={handleMenu}>
-                        <span>About</span>
+                        <span>Sobre mí</span>
                       </Link>
                       </li>
                       <li>
                       <a href={`mailto:${basics.email}`}>
-                        <span>Contact</span>
+                        <span>Contacto</span>
                       </a>
                       </li>
                     </ul>
@@ -115,12 +110,12 @@ const NavBar = () => {
               
                       <li className="nav-item">
                   <Link to={"/about"}>
-                    <span>About</span>
+                    <span>Sobre mí</span>
                   </Link>
                 </li>
                 <li className="nav-item">
-                <a href={`mailto:${basics.email}?subject="Let's have a coffe"&body="I've just seen your portfolio and I like your style, I've a project you migth be interested on"`}>
-                        <span>Contact</span>
+                <a href={`mailto:${basics.email}?subject="Tengamos una charla"&body="Acabo de ver tu portfolio y me gustaría comentarte un proyecto en el que podrías estar interesado"`}>
+                        <span>Contacto</span>
                 </a>
                 </li>
               </ul>
@@ -175,7 +170,7 @@ const NavBar = () => {
               </a>
             </div>
             <div className="qr-code">
-            <a href={`mailto:${basics.email}?subject="Let's have a coffe"&body="I've just seen your portfolio and I like your style, I've a project you migth be interested on"`}>
+            <a href={`mailto:${basics.email}?subject="Tengamos una charla"&body="Acabo de ver tu portfolio y me gustaría comentarte un proyecto en el que podrías estar interesado"`}>
               <img
                 src={qrCode}
                 alt="qr-code"
