@@ -9,6 +9,7 @@ import Footer from "./components/footer.jsx";
 import Projects from "./Views/project.jsx";
 import ProjectDetail from "./components/projectDetail.jsx";
 import Policy from "./Views/policy.jsx";
+import $ from 'jquery';
 
 
 import "./styles/App.css";
