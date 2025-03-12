@@ -9,6 +9,7 @@ import Footer from "./components/footer.jsx";
 import Projects from "./Views/project.jsx";
 import ProjectDetail from "./components/projectDetail.jsx";
 import Policy from "./Views/policy.jsx";
+import CookiesBanner from "./components/cookies.jsx";
 
 
 import "./styles/App.css";
@@ -72,6 +73,7 @@ useEffect(() => {
               <Route element={<Policy/>} path="/policy"/>
             </Routes>
             <Footer />
+            <CookiesBanner/>
           </Router>
         </div>
       )}
