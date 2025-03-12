@@ -67,6 +67,7 @@ useEffect(() => {
               <Route element={<Contact />} path="/contact" />
               <Route element={<Projects />} path="/projects" />
               <Route element={<ProjectDetail />} path="/projects/:projectName" />
+              <Route element={<Policy/>} path="/policy"/>
             </Routes>
             <Footer />
           </Router>
