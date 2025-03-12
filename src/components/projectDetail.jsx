@@ -69,6 +69,11 @@ const ProjectDetail = () => {
                 </div>
               </div>
               <p>{project.description}</p>
+              <Link to={project.url} target="_blank">
+                <div className="visit-button">
+                <VisitButton/>
+                </div>
+                </Link>
             </div>
           </div>
         </div>
