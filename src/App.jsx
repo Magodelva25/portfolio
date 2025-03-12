@@ -8,7 +8,8 @@ import Navbar from "./components/navBar.jsx";
 import Footer from "./components/footer.jsx";
 import Projects from "./Views/project.jsx";
 import ProjectDetail from "./components/projectDetail.jsx";
-import Policy from "./Views/policy.jsx"
+import Policy from "./Views/policy.jsx";
+
 
 import "./styles/App.css";
 
