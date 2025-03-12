@@ -139,8 +139,8 @@ a {
 
 .burger-button {
   background-color: white;
-  padding-right: 15px;
   cursor: pointer;
+  margin-right: 15px;
 }
 
 .burger-button:focus {
@@ -610,7 +610,7 @@ color: var(--text-default-color);
 }
 
 .hero-title > h1 {
-  font-size: 3.63rem;
+  font-size: clamp(20px, 3.2rem, 4rem);
   line-height: 0.9;
   font-weight: 900;
   font-family: "Roboto", sans-serif;
@@ -637,14 +637,14 @@ color: var(--text-default-color);
     padding: 0;
   }
 
-  .hero-title {
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-    font-weight: 900;
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
-    color: var(--text-default-color);
-    padding: 20px;
+  .hero-title > h1 {
+  font-size: clamp(4rem, 4vw, 5rem);
+  line-height: 0.9;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  color: var(--text-default-color);
+  padding-right: 10px;
   }
 
   .hero-content {
@@ -1170,6 +1170,36 @@ color: var(--text-default-color);
   }
 }
 
+.CTA {
+
+  width: 100%;
+  height: 50px;
+  border: 0.5px solid var(--border-main-color);
+  display: flex;
+  margin-top: 25px;
+}
+
+.visit-home {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.visit-home > a > span {
+
+  position: relative;
+  z-index: 10;
+  color: var(--border-main-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-style: italic;
+
+}
+
+
 /* About styles */
 
 .about-section {
@@ -1190,7 +1220,7 @@ color: var(--text-default-color);
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: center ;
+  background-position: center ;
 }
 
 
@@ -1242,7 +1272,7 @@ color: var(--text-default-color);
   .about-section {
     grid-area: main-content;
     display: grid;
-    grid-template-columns: 550px 1fr;
+    grid-template-columns:1fr 400px;
     grid-template-rows: auto auto;
     grid-template-areas:
       "about-title about-picture"
@@ -1256,6 +1286,7 @@ color: var(--text-default-color);
     position: inherit;
     overflow: hidden;
     border-bottom: 0.5px solid var(--border-main-color);
+    background-position: center;
   }
 
   .about-picture > img {

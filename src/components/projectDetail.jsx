@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import info from "../info.json";
 import TagBadge from "./tagBadge";
+import VisitButton from "./VisitButton";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 
@@ -57,12 +58,9 @@ const ProjectDetail = () => {
             <div className="project-description">
               <div className="description-header">
                 <div className="project-tags">
-                {project.keywords?.map((keyword, i) => (
-                      <TagBadge
-                        key={`${project.name}-${i}`}
-                        content={keyword}
-                      />
-                    ))}
+                  {project.keywords?.map((keyword, i) => (
+                    <TagBadge key={`${project.name}-${i}`} content={keyword} />
+                  ))}
                 </div>
                 <div className="important-data">
                   <span>{project.client}</span>
@@ -111,6 +109,12 @@ const ProjectDetail = () => {
                   </div>
                 </div>
                 <p>{project.description}</p>
+
+                <div>
+                <VisitButton
+                  url={project.url}
+                />
+              </div>
               </div>
             </div>
           ) : (
