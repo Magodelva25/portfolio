@@ -22,6 +22,7 @@ const CookiesBanner = () => {
   }
 
   return (
+    <>
     <div className="aviso-cookies activo">
       <div className="contenido">
         <h3 className="titulo">Cookies</h3>
@@ -45,8 +46,10 @@ const CookiesBanner = () => {
           Aviso de Cookies
         </a>
       </div>
-      <div className="fondo-aviso-cookies"></div>
     </div>
+    <div className="fondo-aviso-cookies">
+    </div>
+    </>
   );
 };
 
