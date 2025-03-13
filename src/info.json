@@ -110,7 +110,7 @@
       "name": "My habits",
       "year": "2022",
       "description": "Trabajo de fin de Máster 2025. Dashboard de gestión de hábitos con seguimiento diario y ranking de usuarios basados en los puntos que el usuario recibe al completar sus hábitos. El usuario dispondrá de diferentes opciones de creación de cuenta, tanto formulario básico como mediante Google (con su cuenta de Gmail). Una vez dentro, el usuario dispone de una base de datos pre-configurada donde podrá elegir tantos hábitos como le interese hacer el seguimiento. Cada hábito podrá ser completado una vez al día para evitar el spam continuo de puntos.",
-      "coverPicture": "https://i.postimg.cc/jqWB9cLN/Cover-small.jpg",
+      "coverPicture": "https://i.postimg.cc/RVZp3MmB/my-habits.gif",
       "url": "https://sample-service-name-vrig.onrender.com/",
       "client": "My Habits",
       "location": "Madrid, Spain",
@@ -118,13 +118,8 @@
       "projectMedia": [
         {
           "type": "image",
-          "url": "https://i.postimg.cc/zBd7T1GL/Cover-extended.jpg",
-          "smartphone":"https://i.postimg.cc/jqWB9cLN/Cover-small.jpg"
-        },
-        {
-          "type": "image",
-          "url": "https://i.postimg.cc/R0T8zbBC/Cover-extended-2.jpg",
-          "smartphone":"https://i.postimg.cc/hhWL3chC/Cover-small-2.jpg"
+          "url": "https://i.postimg.cc/ZqwC5FxZ/my-habits-2.avif",
+          "smartphone":"https://i.postimg.cc/RVZp3MmB/my-habits.gif"
         }
       ]
     },
@@ -133,7 +128,7 @@
       "year": "2021",
       "description": "Aplicación de gestión energética de tu hogar. Con un simple vistazo puedes estar al día del flujo de energía de tu hogar. Desde tus placas del hogar hasta monitorizar el consumo tu lavadora este sistema te permite controlar en tiempo real el consumo y el estado de todos los dispositivos de tu hogar. Podrás controlar los costes de la energía inyectada de la red y el beneficio obtenido al vender tus excedentes. Podrás revisar el estado de tus dispositivos Ampere, sus niveles de carga y mantenimientos.",
 
-      "coverPicture": "https://i.postimg.cc/kg98hjGM/Ampere-hero-cover.jpg",
+      "coverPicture": "https://i.postimg.cc/cJPGhvsw/Ampere.gif",
       "url": "https://www.behance.net/gallery/220325735/My-Ampere-App",
       "client": "Ampere Energy",
       "location": "Madrid, Spain",
@@ -141,12 +136,10 @@
       "projectMedia": [
         {
           "type": "image",
-          "url": "https://i.postimg.cc/4NpVPCJF/Ampere-hero.jpg"
-        },
-        {
-          "type": "image",
-          "url": "https://i.postimg.cc/Jz6ncKB2/Detail-1-extended.jpg"
+          "url": "https://i.postimg.cc/cJPGhvsw/Ampere.gif",
+          "smartphone":"https://i.postimg.cc/N0740V5V/Ampere-small.gif"
         }
+
 
       ]
     }

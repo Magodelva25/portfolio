@@ -30,11 +30,13 @@ const CookiesBanner = () => {
           servicios.
         </p>
         <button
-          className="boton"
+          className="cookies-cta"
           id="btn-aceptar-cookies"
           onClick={handleAcceptCookies}
         >
-          De acuerdo
+         <span>
+         De acuerdo
+         </span> 
         </button>
         <a
           className="enlace"
