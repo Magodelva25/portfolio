@@ -41,6 +41,15 @@ a {
   text-decoration: none;
 }
 
+strong{
+
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 5px;
+
+}
+
 #root {
   height: 100%;
   width: 100%;
@@ -1428,9 +1437,20 @@ color: var(--text-default-color);
   }
 }
 
+
+/*  Policy */
+
+.policy-container {
+
+  grid-area: main-content;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+
+
 /* Cookies */
-
-
 
 
 .aviso-cookies {
