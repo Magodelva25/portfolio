@@ -19,7 +19,7 @@ export default defineConfig({
     host: '0.0.0.0',
     port: parseInt(process.env.PORT) || 4173,
     strictPort: true,
-    allowedHosts: ['mango-portfolio-ugk3.onrender.com'],
+    allowedHosts: ['mango-portfolio-9tvc.onrender.com'],
   },
   resolve: {
     alias: {
