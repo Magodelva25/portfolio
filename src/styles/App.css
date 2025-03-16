@@ -117,9 +117,8 @@ strong{
 }
 
 .main-container {
-  padding: 25px;
-  height: calc(100vh - 50px); /* 100vh minus 25px padding top and bottom */
-  width: calc(100vw - 50px); /* 100vw minus 25px padding left and right */
+  padding: 25px; 
+  width: calc(100vw - 50px);
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 60px 1fr 50px;
@@ -132,8 +131,7 @@ strong{
 @media (min-width: 768px) {
   .main-container {
     padding: 25px;
-    height: calc(100vh - 50px); /* 100vh minus 25px padding top and bottom */
-    width: calc(100vw - 50px); /* 100vw minus 25px padding left and right */
+    width: calc(100vw - 50px);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 60px 1fr 50px;
