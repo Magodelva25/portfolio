@@ -131,7 +131,8 @@ strong{
 @media (min-width: 768px) {
   .main-container {
     padding: 25px;
-    width: calc(100vw - 50px);
+    height: calc(100vh - 50px);
+    width: calc(100vw - 50px); 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 60px 1fr 50px;
