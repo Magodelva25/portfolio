@@ -10,7 +10,7 @@ import Projects from "./Views/project.jsx";
 import ProjectDetail from "./components/projectDetail.jsx";
 import Policy from "./Views/policy.jsx";
 import CookiesBanner from "./components/cookies.jsx";
-import { Analytics } from "@vercel/analytics/react"
+
 
 
 import "./styles/App.css";
@@ -76,7 +76,6 @@ useEffect(() => {
             <Footer />
             <CookiesBanner/>
           </Router>
-          <Analytics/>
         </div>
       )}
     </div>
