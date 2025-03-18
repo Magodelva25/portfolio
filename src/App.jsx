@@ -12,6 +12,7 @@ import Policy from "./Views/policy.jsx";
 import CookiesBanner from "./components/cookies.jsx";
 
 
+
 import "./styles/App.css";
 
 function App() {
