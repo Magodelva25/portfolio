@@ -165,7 +165,7 @@ const NavBar = () => {
               <DarkMode />
             </div>
             <div className="download">
-              <a href="./../assets/Manuel-Gonzalez_cv_2025.pdf" download="Manuel-Gonzalez_cv_2025">
+              <a href="/Manuel-Gonzalez_cv_2025.pdf" download="Manuel-Gonzalez_cv_2025">
                 <DownloadIcon />
               </a>
             </div>
