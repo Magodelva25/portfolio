@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import LanguageIcon from "@mui/icons-material/Language";
 import DownloadIcon from "@mui/icons-material/Download";
-import qrCode from "./../assets/qrCode.png";
+import qrCode from "./../assets/qrCode.svg";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import GitHubIcon from "@mui/icons-material/GitHub";
