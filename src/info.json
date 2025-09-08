@@ -115,6 +115,24 @@
   ],
   "projects": [
     {
+      "name": "BubboApp",
+      "year": "2025",
+      "description": "Recomendador de contenidos mediante IA. Según tus plataformas favoritas, nuestro recomendador podrá recomendaros los contenidos que más se adapten a tus gustos y te dirá dónde poder verlos",
+      "coverPicture": "https://postimg.cc/21bMBzSB",
+      "url": "https://i.postimg.cc/5tV798hb/bubbo-1.webp/",
+      "client": "BubboApp",
+      "location": "Spain",
+      "keywords": ["NEXT.JS", "PYTHON", "API", "FLASK", "TYPESCRIPT", "CD/CI"],
+      "projectMedia": [
+        {
+          "type": "image",
+          "url": "https://i.postimg.cc/g2NWQj94/bubbo-cover.png/",
+          "smartphone":"https://i.postimg.cc/RVZp3MmB/my-habits.gif"
+        }
+      ]
+    },
+    
+    {
       "name": "My habits",
       "year": "2022",
       "description": "Trabajo de fin de Máster 2025. Dashboard de gestión de hábitos con seguimiento diario y ranking de usuarios basados en los puntos que el usuario recibe al completar sus hábitos. El usuario dispondrá de diferentes opciones de creación de cuenta, tanto formulario básico como mediante Google (con su cuenta de Gmail). Una vez dentro, el usuario dispone de una base de datos pre-configurada donde podrá elegir tantos hábitos como le interese hacer el seguimiento. Cada hábito podrá ser completado una vez al día para evitar el spam continuo de puntos.",
