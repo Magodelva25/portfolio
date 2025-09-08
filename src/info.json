@@ -118,7 +118,7 @@
       "name": "BubboApp",
       "year": "2025",
       "description": "Recomendador de contenidos mediante IA. Según tus plataformas favoritas, nuestro recomendador podrá recomendaros los contenidos que más se adapten a tus gustos y te dirá dónde poder verlos",
-      "coverPicture": "https://i.postimg.cc/XvL8VmKk/bubbo-1.webp",
+      "coverPicture": "https://i.postimg.cc/g2NWQj94/bubbo-cover.png",
       "url": "https://www.bubbo.ai/",
       "client": "BubboApp",
       "location": "Spain",
@@ -126,7 +126,7 @@
       "projectMedia": [
         {
           "type": "image",
-          "url": "https://i.postimg.cc/g2NWQj94/bubbo-cover.png",
+          "url": "https://i.postimg.cc/CLCJPRZ2/bubbo.gif",
           "smartphone":"https://i.postimg.cc/RVZp3MmB/my-habits.gif"
         }
       ]
