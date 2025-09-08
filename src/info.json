@@ -118,15 +118,15 @@
       "name": "BubboApp",
       "year": "2025",
       "description": "Recomendador de contenidos mediante IA. Según tus plataformas favoritas, nuestro recomendador podrá recomendaros los contenidos que más se adapten a tus gustos y te dirá dónde poder verlos",
-      "coverPicture": "https://postimg.cc/21bMBzSB",
-      "url": "https://i.postimg.cc/5tV798hb/bubbo-1.webp/",
+      "coverPicture": "https://i.postimg.cc/XvL8VmKk/bubbo-1.webp",
+      "url": "https://www.bubbo.ai/",
       "client": "BubboApp",
       "location": "Spain",
-      "keywords": ["NEXT.JS", "PYTHON", "API", "FLASK", "TYPESCRIPT", "CD/CI"],
+      "keywords": ["NEXT.JS", "PYTHON", "API", "FLASK", "TYPESCRIPT"],
       "projectMedia": [
         {
           "type": "image",
-          "url": "https://i.postimg.cc/g2NWQj94/bubbo-cover.png/",
+          "url": "https://i.postimg.cc/g2NWQj94/bubbo-cover.png",
           "smartphone":"https://i.postimg.cc/RVZp3MmB/my-habits.gif"
         }
       ]
