@@ -5,6 +5,11 @@ const CustomCursor = () => {
   const cursorRef = useRef(null);
 
   useEffect(() => {
+    // Detectar si es un dispositivo táctil
+    const isTouchDevice = window.matchMedia("(pointer: coarse)").matches;
+
+    if (isTouchDevice) return; // No activar el cursor en móviles
+
     const cursor = cursorRef.current;
 
     const handleMouseMove = (e) => {
@@ -17,7 +22,8 @@ const CustomCursor = () => {
       }
 
       const target = document.elementFromPoint(x, y);
-      const isInteractive = target?.tagName === "H1" || target?.classList.contains("cursor-target");
+      const isInteractive =
+        target?.tagName === "H1" || target?.classList.contains("cursor-target");
 
       cursor?.classList.toggle("enlarged", isInteractive);
     };
