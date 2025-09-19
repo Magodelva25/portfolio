@@ -10,6 +10,7 @@ import Projects from "./Views/project.jsx";
 import ProjectDetail from "./components/projectDetail.jsx";
 import Policy from "./Views/policy.jsx";
 import CookiesBanner from "./components/cookies.jsx";
+import CustomCursor from "./components/cursorCustom.jsx";
 
 
 
@@ -44,6 +45,7 @@ useEffect(() => {
 
   return (
     <div>
+    <CustomCursor/>
       <AnimatePresence mode="wait">
         {isLoading && (
           <motion.div

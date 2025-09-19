@@ -11,7 +11,11 @@ body {
   transition: ease-in;
   animation-duration: 3s;
   background-color: var(--background-color);
+  cursor: none;
+  
 }
+
+
 
 p {
   color: var(--text-default-color);
@@ -39,6 +43,7 @@ h6 {
 
 a {
   text-decoration: none;
+  cursor: none;
 }
 
 strong{
@@ -68,6 +73,7 @@ strong{
   --button-icon-color: #ffffff;
   --icon-default-color: #000000;
   --bg-image: url('./../assets/uuundulateDark.svg');
+  --bg-hero-hidden: #ffd500;
 }
 
 [data-theme="dark"] {
@@ -146,7 +152,6 @@ strong{
 /* nav burguer */
 
 .burger-button {
-  cursor: pointer;
   margin-right: 15px;
 }
 
@@ -271,10 +276,6 @@ color: var(--text-default-color);
   padding-left: 30px;
 }
 
-.socials {
-
-  cursor: pointer;
-}
 
 .socials > svg {
   color: var(--icon-default-color);
@@ -374,6 +375,7 @@ color: var(--text-default-color);
 .nav-item {
   position: relative;
   overflow: hidden;
+  cursor: none;
 }
 
 .nav-item::before {
@@ -431,6 +433,7 @@ color: var(--text-default-color);
   font-family: "Roboto", sans-serif;
   font-style: italic;
   color: var(--text-default-color);
+  cursor: none;
 }
 
 .nav-handlers {
@@ -614,20 +617,9 @@ color: var(--text-default-color);
   grid-area: hero;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
-.hero-title {
-  padding: 20px;
-}
-
-.hero-title > h1 {
-  font-size: clamp(20px, 3.2rem, 4rem);
-  line-height: 0.9;
-  font-weight: 900;
-  font-family: "Roboto", sans-serif;
-  font-style: italic;
-  color: var(--text-default-color);
-}
 
 .hero-content {
   font-size: 1.3rem;
@@ -637,6 +629,36 @@ color: var(--text-default-color);
   color: var(--text-default-color);
   padding-inline: 20px;
   word-break: break;
+}
+
+.hero-title {
+  padding: 20px;
+}
+
+.hero-title > a > h1 {
+  font-size: clamp(20px, 3.2rem, 4rem);
+  line-height: 0.9;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  color: var(--text-default-color);
+}
+
+#custom-cursor {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: #5c00ff;
+  mix-blend-mode: difference;
+  z-index: 9999;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+}
+
+#custom-cursor.enlarged {
+  transform: scale(5);
 }
 
 @media (min-width: 768px) {
@@ -687,7 +709,6 @@ color: var(--text-default-color);
   display: flex;
   flex-direction: row;
   height: 100%;
-  cursor: grab;
   border-bottom: 0.5px solid var(--border-main-color);
   align-items: center;
   padding-block: 10px;
@@ -850,7 +871,6 @@ color: var(--text-default-color);
 .darkmode {
   position: relative;
   overflow: hidden;
-  cursor: pointer;
   width: 60px;
   height: 60px;
   display: flex;
@@ -1068,7 +1088,6 @@ color: var(--text-default-color);
     border-top: 0;
     justify-content: space-evenly;
     align-items: center;
-    cursor: pointer;
     transition: all 0.3s ease-in-out;
     padding-inline: 20px;
     background-color: var(--background-color);
@@ -1499,7 +1518,6 @@ color: var(--text-default-color);
 	text-align: center;
 	padding: 15px 20px;
 	font-weight: 700;
-	cursor: pointer;
 	transition: .3s ease all;
 	margin-bottom: 15px;
 	font-size: 14px;
