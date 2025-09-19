@@ -93,8 +93,8 @@ const ProjectDetail = () => {
           {isOpen ? (
             <div className="project-content">
               <div className="project-title">
-                <div className="close-handler" onClick={hiddenContent}>
-                  <ArrowForwardIosIcon className="close-icon" />
+                <div className="close-handler cursor-target" onClick={hiddenContent}>
+                  <ArrowForwardIosIcon className="close-icon cursor-target" />
                 </div>
                 <h2>{project.name}</h2>
                 <p>{project.year}</p>
@@ -116,16 +116,16 @@ const ProjectDetail = () => {
                 </div>
                 <p>{project.description}</p>
                 <Link to={project.url} target="_blank">
-                <div className="visit-button">
+                <div className="visit-button cursor-target">
                 <VisitButton/>
                 </div>
                 </Link>
               </div>
               </div>
           ) : (
-            <div className="handler-content" onClick={showingContent}>
+            <div className="handler-content cursor-target" onClick={showingContent}>
               <span>Info</span>
-              <ArrowBackIosIcon className="content-icon" />
+              <ArrowBackIosIcon className="cursor-target content-icon" />
             </div>
           )}
         </div>

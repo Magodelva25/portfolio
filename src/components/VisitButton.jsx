@@ -5,11 +5,13 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 const VisitButton = () => {
   return (
     
-      <div className="visit-home">
-        <div className="buttom-visit">
-          <span>Visitar</span>
+      <div className="visit-home cursor-target">
+        <div className="buttom-visit cursor-target">
+          <span className="cursor-target">Visitar</span>
         </div>
-        <ArrowForwardIosIcon />
+        <ArrowForwardIosIcon 
+          className="cursor-target"
+        />
       </div>
   );
 };

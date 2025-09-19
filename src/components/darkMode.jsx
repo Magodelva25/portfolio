@@ -38,15 +38,15 @@ const DarkMode = () => {
 
   return (
     <>
-      <div className="dark-mode-handler">
+      <div className="dark-mode-handler cursor-target">
         {active ? (
           <DarkModeIcon
-            className="moon"
+            className="moon cursor-target"
             onClick={toggleTheme}
           />
         ) : (
           <LightModeIcon
-            className="sun"
+            className="sun cursor-target"
             onClick={toggleTheme}
           />
         )}

@@ -40,9 +40,9 @@ const NavBar = () => {
         isMobile ? 
         (
         <>
-          <div className="nav-logo">
+          <div className="nav-logo ">
             <Link to={"/"} onClick={handleMenu}>
-              <span className="logo-text">{basics.name}</span>
+              <span className="logo-text ">{basics.name}</span>
             </Link>
           </div>
           <div className="burguer-menu">
@@ -99,23 +99,23 @@ const NavBar = () => {
         </>
       ) : (
         <>
-          <div className="nav-logo">
+          <div className="nav-logo ">
             <Link to={"/"} onClick={handleMenu}>
-              <span className="logo-text">{basics.name}</span>
+              <span className="logo-text cursor-target">{basics.name}</span>
             </Link>
           </div>
           <div className="nav-handlers">
             <div className="nav-links">
               <ul>
               
-                      <li className="nav-item">
+                      <li className="nav-item cursor-target">
                   <Link to={"/about"}>
-                    <span>Sobre mí</span>
+                    <span className="cursor-target">Sobre mí</span>
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item cursor-target">
                 <a href={`mailto:${basics.email}?subject="Tengamos una charla"&body="Acabo de ver tu portfolio y me gustaría comentarte un proyecto en el que podrías estar interesado"`}>
-                        <span>Contacto</span>
+                        <span className="cursor-target">Contacto</span>
                 </a>
                 </li>
               </ul>
@@ -123,30 +123,30 @@ const NavBar = () => {
             {
               !socialsOpen 
             ? (
-            <div className="socials">
-                <LanguageIcon onClick={handleSocials} />
+            <div className="socials cursor-target">
+                <LanguageIcon onClick={handleSocials} className="cursor-target"/>
             </div>
               ) : (
             <div className="socials-hidden">
-                  <div className="icon-hidden">
-                    <CloseIcon onClick={handleSocials}/>
+                  <div className="icon-hidden cursor-target">
+                    <CloseIcon onClick={handleSocials} className="cursor-target"/>
                   </div>
-                  <div className="icon-hidden">
+                  <div className="icon-hidden cursor-target">
                     <a
                       href="https://github.com/Magodelva25"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <GitHubIcon />
+                      <GitHubIcon className="cursor-target"/>
                     </a>
                   </div>
-                  <div className="icon-hidden">
+                  <div className="icon-hidden cursor-target">
                     <a
                       href="https://www.linkedin.com/in/mangodev/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <LinkedInIcon />
+                      <LinkedInIcon className="cursor-target"/>
                     </a>
                   </div>
                   <div className="icon-hidden">
@@ -155,27 +155,27 @@ const NavBar = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="fa-brands brand-behance fa-square-behance"></i>
+                      <i className="fa-brands brand-behance fa-square-behance cursor-target"></i>
                     </a>
                   </div>
                 </div>
               )
             }
-            <div className="darkmode">
-              <DarkMode />
+            <div className="darkmode cursor-target">
+              <DarkMode className="cursor-target"/>
             </div>
-            <div className="download">
+            <div className="download cursor-target">
               <a href="/Manuel_Gonzalez_CV_2025.pdf" download="Manuel_Gonzalez_CV_2025.pdf">
-                <DownloadIcon />
+                <DownloadIcon className="cursor-target" />
               </a>
             </div>
-            <div className="qr-code">
+            <div className="qr-code cursor-target">
             <a href={`mailto:${basics.email}?subject="Tengamos una charla"&body="Acabo de ver tu portfolio y me gustaría comentarte un proyecto en el que podrías estar interesado"`}>
               <img
                 src={qrCode}
                 alt="qr-code"
                 style={{ width: "50px", height: "50px", paddingTop:"4px" }}
-              
+                className="cursor-target"
               />
             </a>
 
